@@ -15,7 +15,7 @@ async function bootstrap() {
     .setDescription(
       'Menyediakan log kehadiran Guru yang absen menggunakan geisa client',
     )
-    .setVersion('1.0')
+    .setVersion('0.1')
     .addBearerAuth()
     .build()
   const document = SwaggerModule.createDocument(app, options)

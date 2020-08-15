@@ -18,7 +18,7 @@ export class AuthController {
   @ApiResponse({
     status: 201,
     description: 'Authentikasi berhasil',
-    type: String,
+    type: null,
   })
   @ApiResponse({
     status: 401,
