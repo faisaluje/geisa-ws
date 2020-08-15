@@ -6,4 +6,7 @@ export class ErrorResponse {
 
   @ApiProperty()
   error: string
+
+  @ApiProperty()
+  message?: string
 }

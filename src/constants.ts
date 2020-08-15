@@ -8,7 +8,7 @@ export const USER_DB = 'andhin'
 export const PASS_DB = 'andhinatgeisaonline2018'
 export const NAME_DB = 'new_geisa'
 export const SYNC_DB = false
-export const LOGGING_DB = true
+export const LOGGING_DB = false
 
 export const JWT_KEY = '8T0n1Z^!@8tketofYflE&P0'
 export const LIMIT_DATA = 50

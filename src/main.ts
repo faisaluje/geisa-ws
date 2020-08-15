@@ -11,9 +11,9 @@ async function bootstrap() {
   const port = process.env.PORT || APP_PORT
 
   const options = new DocumentBuilder()
-    .setTitle('Web Service Geisa Online')
+    .setTitle('Web Service Geisa')
     .setDescription(
-      'Menyediakan log kehadiran Guru yang absen menggunakan geisa client',
+      'Menyediakan log kehadiran Guru yang absen menggunakan <b>Geisa Client</b>',
     )
     .setVersion('0.1')
     .addBearerAuth()
