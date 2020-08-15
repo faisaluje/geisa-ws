@@ -17,9 +17,17 @@ async function bootstrap() {
     )
     .setVersion('0.1')
     .addBearerAuth()
+    .setContact(
+      'Geisa Online',
+      'https://geisa.online',
+      'geisaofficial@gmail.com',
+    )
     .build()
   const document = SwaggerModule.createDocument(app, options)
-  SwaggerModule.setup('/api', app, document)
+  SwaggerModule.setup('/api', app, document, {
+    customSiteTitle: 'Web Service Geisa',
+    customfavIcon: 'https://report.geisa.online/favicon.ico',
+  })
 
   logger.log(`App running on port : ${port}`)
   app.enableCors()
